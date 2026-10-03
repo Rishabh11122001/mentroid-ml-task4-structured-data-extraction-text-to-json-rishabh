@@ -1,0 +1,30 @@
+{
+  "model": "google/flan-t5-small",
+  "model_revision": "0fc9ddf78a1e988dac52e2dac162b0ede4fd74ab",
+  "timestamp_utc": "2026-10-03T16:21:37.401708+00:00",
+  "python": "3.12.14",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "packages": {
+    "torch": "2.10.0+cpu",
+    "transformers": "4.57.6",
+    "pydantic": "2.12.5"
+  },
+  "device": "cpu",
+  "threads": 4,
+  "decoding": "greedy",
+  "max_new_tokens": 128,
+  "cases": 20,
+  "first_attempt_json_object_rate": 0.0,
+  "first_attempt_schema_rate": 0.0,
+  "final_schema_rate": 0.0,
+  "exact_record_accuracy": 0.0,
+  "field_accuracy": {
+    "name": 0.0,
+    "age": 0.0,
+    "profession": 0.0
+  },
+  "inference_seconds": 7.999,
+  "note": "Synthetic, hand-labelled diagnostic set; errors count as incorrect. Strings compared after case/whitespace normalization. No synonym matching.",
+  "data_sha256": "c20a6babd244be5d6cdd5652d02bdd482b007493c4d73908d8f1cb28104759db",
+  "prompt_sha256": "25255ecd758d8c77b917b82dd9cc6af7cfffa9065432dfed4a49fc8d35641aa7"
+}

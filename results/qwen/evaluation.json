@@ -1,0 +1,30 @@
+{
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "model_revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+  "timestamp_utc": "2026-10-03T16:24:04.241027+00:00",
+  "python": "3.12.14",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "packages": {
+    "torch": "2.10.0+cpu",
+    "transformers": "4.57.6",
+    "pydantic": "2.12.5"
+  },
+  "device": "cpu",
+  "threads": 4,
+  "decoding": "greedy",
+  "max_new_tokens": 128,
+  "cases": 20,
+  "first_attempt_json_object_rate": 1.0,
+  "first_attempt_schema_rate": 0.75,
+  "final_schema_rate": 0.75,
+  "exact_record_accuracy": 0.55,
+  "field_accuracy": {
+    "name": 0.7,
+    "age": 0.7,
+    "profession": 0.65
+  },
+  "inference_seconds": 127.014,
+  "note": "Synthetic, hand-labelled diagnostic set; errors count as incorrect. Strings compared after case/whitespace normalization. No synonym matching.",
+  "data_sha256": "c20a6babd244be5d6cdd5652d02bdd482b007493c4d73908d8f1cb28104759db",
+  "prompt_sha256": "25255ecd758d8c77b917b82dd9cc6af7cfffa9065432dfed4a49fc8d35641aa7"
+}
